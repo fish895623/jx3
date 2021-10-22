@@ -9,7 +9,7 @@ spec:
     clusterName: kind
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: fish895623
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,14 +20,14 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "oreopie.ipdisk.co.kr"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
-  repository: bucketrepo
+  repository: jx3
   secretStorage: local
   vault: {}
   webhook: lighthouse
